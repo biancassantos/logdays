@@ -5,7 +5,7 @@ import FavoriteBtn from "./ui/FavoriteBtn"
 const LogPreview = ({ id, date, title, body, isFavorite }) => {
   return (
     <Link 
-    to={`/all/${id}`} 
+    to={`/logdays/all/${id}`} 
     className="hover:shadow-md transition-shadow duration-300 max-w-[700px] w-[100%]">
       <WhiteContainer>
         <div className='flex justify-between items-center mb-6'>

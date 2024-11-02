@@ -7,9 +7,9 @@ const VerticalNav = () => {
 
   return (
     <nav className="hidden md:flex md:flex-col md:gap-1">
-      <NavLinkWithText url="/all" text="All" icon={<BsJournalText />} btnRef={allPageRef} />
-      <NavLinkWithText url="/new-log" text="New log" icon={<BsPlusLg />} />
-      <NavLinkWithText url="favorites" text="Favorites" icon={<BsStarFill />} />
+      <NavLinkWithText url="/logdays/all" text="All" icon={<BsJournalText />} btnRef={allPageRef} />
+      <NavLinkWithText url="/logdays/new-log" text="New log" icon={<BsPlusLg />} />
+      <NavLinkWithText url="/logdays/favorites" text="Favorites" icon={<BsStarFill />} />
     </nav>
   )
 }

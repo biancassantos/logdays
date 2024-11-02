@@ -7,9 +7,9 @@ const HorizontalNav = () => {
 
   return (
     <nav className="flex justify-around md:hidden">
-      <NavLinkWithoutText url='/all' icon={<BsJournalText />} btnRef={allPageRef} />
-      <NavLinkWithoutText url='/new-log' icon={<BsPlusLg />} />
-      <NavLinkWithoutText url='/favorites' icon={<BsStarFill />} />
+      <NavLinkWithoutText url='/logdays/all' icon={<BsJournalText />} btnRef={allPageRef} />
+      <NavLinkWithoutText url='/logdays/new-log' icon={<BsPlusLg />} />
+      <NavLinkWithoutText url='/logdays/favorites' icon={<BsStarFill />} />
     </nav>
   )
 }
