@@ -10,12 +10,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MainLayout />}>
-          <Route path='/all' element={<AllLogsPage />} />
-          <Route path='/all/:id' element={<FullLogPage />} />
-          <Route path='/all/:id/edit' element={<EditLogPage />} />
-          <Route path='/new-log' element={<NewLogPage />} />
-          <Route path='/favorites' element={<FavoriteLogsPage />} />
+        <Route path='/logdays' element={<MainLayout />}>
+          <Route path='/logdays/all' element={<AllLogsPage />} />
+          <Route path='/logdays/all/:id' element={<FullLogPage />} />
+          <Route path='/logdays/all/:id/edit' element={<EditLogPage />} />
+          <Route path='/logdays/new-log' element={<NewLogPage />} />
+          <Route path='/logdays/favorites' element={<FavoriteLogsPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
