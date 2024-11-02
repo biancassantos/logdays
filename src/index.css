@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Roboto';
+}
+/* --- active navlink bg color --- */
+a.active {
+  background-color: #CAE893;
+}
+
+/* --- scrollbar colors --- */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F1F1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4D4D4;
+}
