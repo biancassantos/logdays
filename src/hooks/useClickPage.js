@@ -1,15 +1,15 @@
-import { useRef, useEffect } from "react"
+import { useEffect, useRef } from "react";
 
 // clicks a link automatically and opens a page when the app loads
 
 const useClickPage = () => {
-  const pageLinkRef = useRef(null)
+	const pageLinkRef = useRef(null);
 
-  useEffect(() => {
-    pageLinkRef.current.click()
-  }, [])
+	useEffect(() => {
+		pageLinkRef.current.click();
+	}, []);
 
-  return pageLinkRef
-}
+	return pageLinkRef;
+};
 
-export default useClickPage
+export default useClickPage;
