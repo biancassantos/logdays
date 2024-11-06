@@ -9,7 +9,7 @@ const DeleteBtn = ({ id }) => {
 
   function handleDelete() {
     dispatch(deleteLog(id))
-    navigate('/all')
+    navigate('/logdays/all')
   }
 
   return (

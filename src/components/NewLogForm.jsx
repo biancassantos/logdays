@@ -25,7 +25,7 @@ const NewLogForm = () => {
   function handleSubmit(e) {
     e.preventDefault()
     dispatch(addLog(newLog))
-    navigate('/all')
+    navigate('/logdays/all')
   }
 
   return (
