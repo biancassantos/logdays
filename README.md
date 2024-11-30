@@ -10,11 +10,11 @@ Olá, esse projeto é uma espécie de journal virtual, onde você pode registrar
 - Deletar post
 - Fazer busca filtrando posts por palavras e datas
 
-### Objetivo:
+### Objetivos:
 - Praticar pela primeira vez meus conhecimentos em Redux e Tailwindcss.
 
 ### Links:
-- <a href="https://biancassantos.github.io/logdays" target="_blank">Deploy do projeto</a>
+- <a href="https://biancassantos.github.io/logdays" target="_blank">Página do projeto</a>
 
 </br>
 
