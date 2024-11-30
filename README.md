@@ -13,6 +13,8 @@ Olá, esse projeto é uma espécie de journal virtual, onde você pode registrar
 ### Links:
 - <a href="https://biancassantos.github.io/logdays" target="_blank">Deploy do projeto</a>
 
+</br>
+
 ![Design do projeto](https://raw.githubusercontent.com/biancassantos/logdays/refs/heads/main/logdays-design.png)
 
 ## 🔎 Especificações
