@@ -22,10 +22,15 @@ Olá, esse projeto é uma espécie de journal virtual, onde você pode registrar
 
 ## 🔎 Especificações
 ### Tecnologias:
-- HTML
+- React
 - JavaScript
-- React (React Router Dom, React Icons, Redux)
 - Tailwindcss
+- JSX
+
+### Dependências:
+- React Router Dom
+- Redux
+- React Icons
 
 ### Linter:
 - Biome
