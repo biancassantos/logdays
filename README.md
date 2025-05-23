@@ -1,8 +1,36 @@
-# React + Vite
+# logdays
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Sobre
+Olá, esse projeto é uma espécie de journal virtual, onde você pode registrar seus dias, memórias, frustrações e tudo mais!
 
-Currently, two official plugins are available:
+### Funcionalidades:
+- Adicionar um post
+- Adicionar/remover post dos favoritos
+- Editar post
+- Deletar post
+- Fazer busca filtrando posts por palavras e datas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Objetivos:
+- Praticar pela primeira vez meus conhecimentos em Redux e Tailwindcss.
+
+### Links:
+- <a href="https://biancassantos.github.io/logdays" target="_blank">Página do projeto</a>
+
+</br>
+
+![Design do projeto](https://raw.githubusercontent.com/biancassantos/logdays/refs/heads/main/logdays-design.png)
+
+## 🔎 Especificações
+### Tecnologias:
+- React
+- JavaScript
+- Tailwindcss
+- JSX
+
+### Dependências:
+- React Router Dom
+- Redux
+- React Icons
+
+### Linter:
+- Biome
